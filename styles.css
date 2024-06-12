@@ -45,17 +45,17 @@ nav ul li a:hover {
 }
 
 main {
-    padding: 20px;
+    padding: 10px; /* Reduced from 20px to 10px */
 }
 
 section {
-    margin-bottom: 20px;
+    margin-bottom: 10px; /* Reduced from 20px to 10px */
 }
 
 h1, h2 {
     color: #333;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 10px; /* Reduced from 20px to 10px */
 }
 
 p {
@@ -68,12 +68,12 @@ p {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 20px 0;
+    margin: 10px 0; /* Reduced from 20px to 10px */
 }
 
 .inspiration .text {
     flex: 1;
-    margin-right: 20px;
+    margin-right: 10px; /* Reduced from 20px to 10px */
 }
 
 .inspiration .image {
@@ -81,20 +81,20 @@ p {
 }
 
 .inspiration .image img {
-    width: 100%; /* Ensure it takes full width of its container */
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 10px; /* Apply border radius */
+    max-width: 50%;
+    height: auto;
+    border-radius: 10px;
 }
 
 .designs {
     display: flex;
     align-items: center;
-    margin: 20px 0;
+    margin: 10px 0; /* Reduced from 20px to 10px */
 }
 
 .design-image {
     flex: 1;
-    margin: 0 10px;
+    margin: 0 5px; /* Reduced from 10px to 5px */
 }
 
 .design-image img {
@@ -105,15 +105,49 @@ p {
 
 .design-text {
     flex: 2;
-    margin: 0 10px;
+    margin: 0 5px; /* Reduced from 10px to 5px */
     text-align: justify;
 }
 
 .mission {
     display: flex;
     align-items: center;
-    margin: 20px 0;
+    margin: 10px 0; /* Reduced from 20px to 10px */
 }
 
 .mission-image {
-    flex
+    flex: 1.5;
+    margin-right: 10px; /* Reduced from 20px to 10px */
+}
+
+.mission-image img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.mission-text {
+    flex: 2;
+}
+
+.join-us-image {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px; /* Reduced from 20px to 10px */
+}
+
+.join-us-image img {
+    max-width: 15%;
+    height: auto;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
