@@ -81,9 +81,9 @@ p {
 }
 
 .inspiration .image img {
-    max-width: 100%; /* Changed from 50% to 100% */
-    height: auto;
-    border-radius: 10px;
+    width: 100%; /* Ensure it takes full width of its container */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Apply border radius */
 }
 
 .designs {
@@ -116,38 +116,4 @@ p {
 }
 
 .mission-image {
-    flex: 1.5;
-    margin-right: 20px;
-}
-
-.mission-image img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
-}
-
-.mission-text {
-    flex: 2;
-}
-
-.join-us-image {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-}
-
-.join-us-image img {
-    max-width: 20%;
-    height: auto;
-    border-radius: 10px;
-}
-
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-    position: relative;
-    width: 100%;
-    bottom: 0;
-}
+    flex
